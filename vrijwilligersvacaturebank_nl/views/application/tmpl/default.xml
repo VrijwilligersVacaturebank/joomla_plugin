@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="Application">
+        <message>Displays Vrijwilligersvacaturebank_nl application.</message>
+    </layout>
+
+    <fields name="request">
+        <fieldset name="request">
+            <field name="fileid" type="sql" query="SELECT id, route FROM #__vrijwilligersvacaturebank_nl" key_field="id" value_field="title" description="Select Vrijwilligersvacaturebank_nl Application to be included" label="Vrijwilligersvacaturebank_nl Application" required="true" />
+        </fieldset>
+    </fields>
+</metadata>

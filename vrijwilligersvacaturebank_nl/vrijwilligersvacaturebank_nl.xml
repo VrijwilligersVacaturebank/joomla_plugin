@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>com_vrijwilligersvacaturebank_nl</name>
+    <author>vrijwilligersvacaturebank</author>
+    <creationDate>January 2016</creationDate>
+    <copyright>Copyright (c) vrijwilligersvacaturebank. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description></description>
+
+    <files>
+        <filename>vrijwilligersvacaturebank_nl.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <filename>index.html</filename>
+        <filename>release_notes.txt</filename>
+        <folder>views</folder>
+    </files>
+
+    <scriptfile>scriptfile.php</scriptfile>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">install.vrijwilligersvacaturebank_nl.sql</file>
+        </sql>
+    </install>
+
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">uninstall.vrijwilligersvacaturebank_nl.sql</file>
+        </sql>
+    </uninstall>
+
+    <url>
+        <linkparts name="fileid" type="sql" default="1" label="FILE" query="SELECT id, route FROM #__vrijwilligersvacaturebank_nl" key_field="id" value_field="title" description="PARAMFILE" />
+    </url>
+
+    <administration>
+        <menu img="components/com_vrijwilligersvacaturebank_nl/images/vrijwilligersvacaturebank_nl.png">COM_EPAGEO_MENU</menu>
+        <files folder="admin">
+            <filename>vrijwilligersvacaturebank_nl.php</filename>
+            <filename>controller.php</filename>
+            <filename>install.vrijwilligersvacaturebank_nl.sql</filename>
+            <filename>uninstall.vrijwilligersvacaturebank_nl.sql</filename>
+            <filename>index.html</filename>
+            <folder>images</folder>
+            <folder>assets</folder>
+            <folder>router</folder>
+            <folder>views</folder>
+            <folder>models</folder>
+            <folder>controllers</folder>
+        </files>
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_vrijwilligersvacaturebank_nl.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_vrijwilligersvacaturebank_nl.sys.ini</language>
+        </languages>
+    </administration>
+</extension>

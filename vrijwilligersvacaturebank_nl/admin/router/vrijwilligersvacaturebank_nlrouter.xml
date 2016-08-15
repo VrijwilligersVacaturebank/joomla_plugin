@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="1.6" method="upgrade">
+    <name>System - Vrijwilligersvacaturebank_nl Router</name>
+    <author>vrijwilligersvacaturebank</author>
+    <creationDate>January 2016</creationDate>
+    <copyright>Copyright (c) vrijwilligersvacaturebank. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>SEF routing plugin for Vrijwilligersvacaturebank_nl, which will enable direct access to vrijwilligersvacaturebank_nl application with it's alias.</description>
+
+    <files>
+        <filename plugin="vrijwilligersvacaturebank_nlrouter">vrijwilligersvacaturebank_nlrouter.php</filename>
+    </files>
+</extension>

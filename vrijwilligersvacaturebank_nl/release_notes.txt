@@ -1,0 +1,16 @@
+Vrijwilligersvacaturebank_nl package for Joomla
+================================
+Version 1.0.0
+Release date: 2015/12/31
+================================
+This package contains the following extensions:
+    - Vrijwilligersvacaturebank_nl component
+    - Vrijwilligersvacaturebank_nl system router plugin
+
+Installation/uninstallation instructions:
+Install Vrijwilligersvacaturebank_nl package as a standard Joomla! extension. All extensions contained in the package are installed automatically.
+Uninstallation of Vrijwilligersvacaturebank_nl component also uninstalls all other Vrijwilligersvacaturebank_nl extensions (Vrijwilligersvacaturebank_nl plugin).
+
+================================
+After Installation administrator need to provide the Consumer key,Consumer secert and route. After configuring the detail the page can be accessed by <sitename>/index.php/<route> (if SEO urls are not configured in joomla else <sitename>/<route>)
+================================
